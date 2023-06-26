@@ -1,0 +1,31 @@
+.start-screen {
+    height: 100vh;
+    background: url('../images/startScreen-top.png') right top, url('../images/startScreen-bottom.png') left bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: karla;
+    font-size: 64px;
+    margin: 0 0 10px 0;
+}
+
+.subheading {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+}
+
+.button {
+    background: #4D5B9E;
+    border: none;
+    color: #F5F7FB;
+    border-radius: 15px;
+    padding: 16px 60px;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 600;
+}

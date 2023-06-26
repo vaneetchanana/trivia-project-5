@@ -1,0 +1,8 @@
+body {
+  background: url('./images/main-top.png') right top, url('./images/main-bottom.png') left bottom;
+    background-repeat: no-repeat;
+  background-color: #F5F7FB;
+  color: #293264;
+  margin: 0;
+  font-family: Karla;
+}
